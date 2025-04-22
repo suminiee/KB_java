@@ -1,9 +1,14 @@
-package poly2.ex2;
+package poly3.abstract_;
 
-public class Duck extends Animal{
+public class Duck extends AbstractAnimal {
     @Override
     public void sound() {
         System.out.println("오리는 꽥꽥");
+    }
+
+    @Override
+    public void eat() {
+        System.out.println("오리가 밥을 먹어요");
     }
 
     public void fly() {
